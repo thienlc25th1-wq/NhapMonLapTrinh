@@ -10,9 +10,19 @@ void cau1() {
 	}
 	cout << "Tong la: " << tong << endl;
 }
+void cau2() {
+	int n, tich = 1;
+	cout << "Nhap n: ";
+	cin >> n;
+	for (int i = 1; i <= n; i++) {
+		tich *= i;
+	}
+	cout << "Tich la: " << tich << endl;
+}
+
 
 int main()
 {
-	cau1();
+	cau2();
 }
 
