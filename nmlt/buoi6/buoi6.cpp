@@ -19,10 +19,20 @@ void cau2() {
 	}
 	cout << "Tich la: " << tich << endl;
 }
+void cau3() {
+	int x,n, tich = 1;
+	cout << "Nhap x,y: ";
+	cin >> x >>  n;
+	for (int i = 1; i <= n; i++) {
+		tich *= i;
+	}
+	cout << "Tich la: " << tich << endl;
+}
+
 
 
 int main()
 {
-	cau2();
+	cau3();
 }
 
