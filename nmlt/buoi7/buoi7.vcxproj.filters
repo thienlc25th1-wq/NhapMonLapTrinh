@@ -21,9 +21,15 @@
     <ClCompile Include="SoNguyen.cpp">
       <Filter>Resource Files</Filter>
     </ClCompile>
+    <ClCompile Include="Baitap6.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="SoNguyen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Baitap6.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
