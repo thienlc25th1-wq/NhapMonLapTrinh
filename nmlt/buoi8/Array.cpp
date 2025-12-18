@@ -1,4 +1,5 @@
 #include <iostream>
+#include "SoNguyen.h"
 using namespace std;
 void input(int b[], int & n) {
 	cout << "Nhap so luong phan tu: ";
@@ -57,6 +58,16 @@ void vitrinhonhat(int b[], int n) {
 		cout << "vi tri nho nhat: " << vt + 1 << endl;
 
 }
+void nguyentonhohon100(int b[], int n) {
+	cout << "Nguyentonhohon100: " << endl;
+	for (int i = 0; i < n; i++) {
+		if (b[i] < 100 && NguyenTo(b[i]) == true) {
+			cout << b[i] << "  ";
+		}
+	}
+	cout << endl;
+}
+
 
 
 
