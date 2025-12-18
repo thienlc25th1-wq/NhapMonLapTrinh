@@ -38,6 +38,14 @@ void vitriam(int b[], int n) {
 	}
 	cout << endl;
 }
+void giatrilonnhat(int b[], int n) {
+	int max = b[0];
+	for (int i = 1; i < n; i++) {
+		if (b[i] > max)
+			max = b[i];
+	}
+	cout << "Gia tri lon nhat: " << max << endl;
+}
 
 
 
