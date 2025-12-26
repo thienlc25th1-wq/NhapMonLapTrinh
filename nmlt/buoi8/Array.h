@@ -6,5 +6,5 @@ void giatrilonnhat(int b[], int n);
 void vitrinhonhat (int b[], int n);
 void nguyentonhohon100(int b[], int n);
 void tonggiariam(int b[], int n);
-void giatritangdan(int b[], int n);
-int giatriduoongdautien(int b[]), int n);
+void sapxeptangdan(int b[], int n);
+int giatriduongdautien(int b[], int n);

@@ -89,6 +89,7 @@ int giatriduongdautien(int b[], int n) {
 		if (b[i] > 0)
 			return b[i];
 	}
+	return -1;
 }
 
 

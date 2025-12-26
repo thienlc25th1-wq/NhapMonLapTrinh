@@ -1,6 +1,9 @@
 #include "Array.h"
 #include "SoNguyen.h"
 #define MAX 100
+#include < iostream>
+using namespace std;
+
 
 
 int main()
@@ -18,7 +21,7 @@ int main()
 	//output(a, n);
 	int kq = giatriduongdautien(a, n);
 	if (kq < 0) {
-		cout << "Khong co gia tri duong trong mang: " << endl;
+		cout << "Khong co gia tri duong trong mang" << endl;
 	}
 	else {
 		cout << " Gia tri duong dau tien: " << kq << endl;
