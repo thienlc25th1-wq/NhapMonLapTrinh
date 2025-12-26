@@ -67,7 +67,23 @@ void nguyentonhohon100(int b[], int n) {
 	}
 	cout << endl;
 }
-
+void tonggiatriam(int b[], int n) {
+	int tong = 0;
+	for (int i = 0; i < n; i++) {
+		if (b[i] < 0)
+			tong += b[i];
+	}
+	cout << "Tong am: " << tong << endl;
+}
+void sapxeptangdan(int b[], int n) {
+	for (int i =0; i < n-1; i++)
+		for (int j=j+1; j<n;)
+			if (b[j] < b[i]) {
+				int t = b[j];
+				b[j] = b[i];
+				b[i] = t;
+			}
+}
 
 
 
