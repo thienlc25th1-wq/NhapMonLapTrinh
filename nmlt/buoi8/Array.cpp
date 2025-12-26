@@ -99,4 +99,12 @@ for (int i = n - 1; i >= 0; i--) {
 }
 return -1;
 }
+int vitrichandautien(int b[], int n) {
+	for (int i = 0; i < n; i++) {
+		if (b[i] % 2 == 0)
+		return i + 1;
+	}
+	return -1;
+
+}
 
