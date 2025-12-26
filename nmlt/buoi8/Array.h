@@ -8,3 +8,4 @@ void nguyentonhohon100(int b[], int n);
 void tonggiariam(int b[], int n);
 void sapxeptangdan(int b[], int n);
 int giatriduongdautien(int b[], int n);
+int giatrichancuoicung(int b[], int n);

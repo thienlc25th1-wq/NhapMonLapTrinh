@@ -77,7 +77,7 @@ void tonggiatriam(int b[], int n) {
 }
 void sapxeptangdan(int b[], int n) {
 	for (int i =0; i < n-1; i++)
-		for (int j=j+1; j<n;)
+		for (int j=i+1; j<n;)
 			if (b[j] < b[i]) {
 				int t = b[j];
 				b[j] = b[i];
@@ -91,5 +91,12 @@ int giatriduongdautien(int b[], int n) {
 	}
 	return -1;
 }
+int giatrichancuoicung(int b[], int n) {
+for (int i = n - 1; i >= 0; i--) {
+	if (b[i] % 2 == 0)
+		return b[i];
 
+}
+return -1;
+}
 
